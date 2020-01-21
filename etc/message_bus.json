@@ -1,0 +1,7 @@
+{
+  "host" : "localhost",
+  "port" : 5672,
+  "user" : "cmdb",
+  "password" : "wts3c/xh2wNPPvp+8Yo9EU4NqF2hkrn2wcF1Ib2hACE=",
+  "vhost" : "cmdb"
+}
