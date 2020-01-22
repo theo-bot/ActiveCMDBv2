@@ -57,7 +57,7 @@ class DeviceSecurity(models.Model):
         (COM, 'Community'),
         (USM, 'User Security Model')
     )
-    device = models.ForeignKey(Device, on_delete=models.CASCADE)
+    device = models.ForeignKey(Device, related_name='security', on_delete=models.CASCADE)
     domain = models.ForeignKey(Domain, on_delete=models.PROTECT)
     telnet_user = models.CharField(max_length=32)
     telnet_pass = models.CharField(max_length=64)
